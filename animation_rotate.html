@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>template</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <style type="text/css">
+    <!--
+    #svgarea1{
+      position:absolute;
+      top:0px;
+      left:0px;
+      width:100px;
+      height:100px;
+      -webkit-transform: translate(0px,0px);
+      background-color: #000000;
+    }
+    #svgarea2{
+      position:absolute;
+      top:0px;
+      left:100px;
+      width:100px;
+      height:100px;
+      -webkit-transform:rotate(50deg) rotateY(0) ;
+      background-color: #ff0000;
+    }
+    #svgarea3{
+      position:absolute;
+      top:0px;
+      left:200px;
+      width:100px;
+      height:100px;
+      -webkit-transform:rotate(180deg) rotateY(0) ;
+      background-color: #00ff00;
+    }
+    #svgarea4{
+      position:absolute;
+      top:0px;
+      left:300px;
+      width:100px;
+      height:100px;
+      -webkit-transform: translate(50px,0px) rotate(90deg);
+      -webkit-animation-name:rotateanim;
+      -webkit-animation-iteration-count:infinite;
+      -webkit-animation-duration: 10s;
+    }
+
+@-webkit-keyframes rotateanim {
+  from {
+    animation-timing-function: ease-out;
+    -webkit-transform:rotate(0deg) rotateY(0) ;
+    background-color: #ffffff;
+  }
+ 
+  to {
+    animation-timing-function: ease-out;
+    -webkit-transform:rotate(360deg) rotateY(0) ;
+    background-color: #000000;
+  }
+}
+    -->
+  </style>
+</head>
+<body>
+  <div id="svgarea1">
+    <svg></svg>
+  </div>
+  <div id="svgarea2">
+    <svg></svg>
+  </div>
+  <div id="svgarea3">
+    <svg></svg>
+  </div>
+  <div id="svgarea4">
+    <svg></svg>
+  </div>
+  <script type="text/javascript" src="animation_rotate.js"></script>
+</body>
+</html>
